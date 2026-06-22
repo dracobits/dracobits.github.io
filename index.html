@@ -121,12 +121,20 @@
       padding: 4px 14px;
       margin-bottom: 2rem;
     }
+    .hero-note {
+      font-size: 15px;
+      color: #ffffff;
+      margin-top: 1rem;
+    }
     .hero h1 {
       font-size: clamp(2rem, 5vw, 3rem);
       font-weight: 500;
       line-height: 1.2;
       margin-bottom: 1.25rem;
       letter-spacing: -0.02em;
+    }
+    .hero h1 {
+      color: #ffffff;
     }
     .hero h1 em {
       font-style: normal;
@@ -314,104 +322,11 @@
 <!-- ── Hero ── -->
 <div id="about">
   <div class="hero">
-    <div class="hero-eyebrow">
-      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-      indie game development
-    </div>
-    <h1>一緒に、<em>ゲーム</em>を<br>作ろう。</h1>
-    <p>私たちは学生によるゲーム開発サークルです。プログラマー・デザイナー・サウンドクリエイターが集まり、オリジナルゲームを制作しています。</p>
-    <div class="hero-actions">
-      <a href="#works" class="btn btn-primary">作品を見る</a>
-      <a href="#members" class="btn btn-ghost">メンバーを見る</a>
-    </div>
+    <h1><em>DracoBits</em>のページにようこそ</h1>
+    <p style="color:#ffffff;">DracoBitsはゲーム開発をはじめ、アプリ開発・システム開発などに取り組むサークルです。今後の活動をお楽しみにしてください。</p>
+    <p class="hero-note">※現在準備中です。しばらくお待ちください。</p>
   </div>
 </div>
-
-<!-- ── Stats + Members ── -->
-<section class="section" id="members">
-  <div class="stats">
-    <div class="stat">
-      <div class="stat-num">12</div>
-      <div class="stat-label">メンバー</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">8</div>
-      <div class="stat-label">制作作品</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num">3</div>
-      <div class="stat-label">受賞歴</div>
-    </div>
-  </div>
-
-  <p class="section-eyebrow">members</p>
-  <h2 class="section-title">メンバー紹介</h2>
-  <div class="members">
-    <div class="member-card">
-      <div class="avatar av-purple">田中</div>
-      <div class="member-name">田中 蓮</div>
-      <div class="member-role">リードプログラマー</div>
-    </div>
-    <div class="member-card">
-      <div class="avatar av-teal">佐藤</div>
-      <div class="member-name">佐藤 葵</div>
-      <div class="member-role">ゲームデザイナー</div>
-    </div>
-    <div class="member-card">
-      <div class="avatar av-coral">山田</div>
-      <div class="member-name">山田 陽</div>
-      <div class="member-role">グラフィック</div>
-    </div>
-    <div class="member-card">
-      <div class="avatar av-blue">鈴木</div>
-      <div class="member-name">鈴木 結</div>
-      <div class="member-role">サウンド</div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Works ── -->
-<section class="section" id="works">
-  <p class="section-eyebrow">works</p>
-  <h2 class="section-title">制作作品</h2>
-  <div class="works">
-    <div class="work-card">
-      <div class="work-thumb wt-purple">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#534AB7" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"/><path d="M13 19l6-6"/><path d="M2 2l20 20"/></svg>
-      </div>
-      <div class="work-body">
-        <div class="work-title">EchoKnight</div>
-        <div class="work-desc">光と影をテーマにした2Dアクションゲーム。反射を駆使して謎を解け。</div>
-        <span class="work-tag">Unity</span>
-      </div>
-    </div>
-    <div class="work-card">
-      <div class="work-thumb wt-teal">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#0F6E56" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0-6.3 15.4M12 3a9 9 0 0 1 6.3 15.4"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg>
-      </div>
-      <div class="work-body">
-        <div class="work-title">Nebula Drift</div>
-        <div class="work-desc">宇宙空間を舞台にしたパズルアドベンチャー。重力を操り星を渡れ。</div>
-        <span class="work-tag teal">Godot</span>
-      </div>
-    </div>
-    <div class="work-card">
-      <div class="work-thumb wt-coral">
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#993C1D" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8C8 10 5.9 16.17 3.82 19.83"/><path d="M5 8h.01"/><path d="M3 3h18v9a9 9 0 0 1-18 0V3z"/></svg>
-      </div>
-      <div class="work-body">
-        <div class="work-title">Root & Rise</div>
-        <div class="work-desc">自然をテーマにした育成シミュレーション。植物と共に世界を広げよ。</div>
-        <span class="work-tag coral">Web</span>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── Footer ── -->
-<footer>
-  © 2026 GameCircle &nbsp;·&nbsp; お問い合わせ: <a href="mailto:contact@example.com">contact@example.com</a>
-</footer>
 
 </body>
 </html>
